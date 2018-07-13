@@ -16,6 +16,15 @@
 		1CB70EA120F86C8B009E708F /* CycleScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB70E9F20F86C8B009E708F /* CycleScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1CB70EA420F86C8B009E708F /* CycleScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB70E9D20F86C8B009E708F /* CycleScrollView.framework */; };
 		1CB70EA520F86C8B009E708F /* CycleScrollView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB70E9D20F86C8B009E708F /* CycleScrollView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1CB70EAF20F87D02009E708F /* LTCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB70EA920F87D01009E708F /* LTCycleScrollView.m */; };
+		1CB70EB020F87D02009E708F /* LTCycleScrollViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB70EAA20F87D01009E708F /* LTCycleScrollViewFlowLayout.m */; };
+		1CB70EB120F87D02009E708F /* LTCycleScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB70EAE20F87D02009E708F /* LTCycleScrollViewCell.m */; };
+		1CB70EB220F87D18009E708F /* LTCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB70EA920F87D01009E708F /* LTCycleScrollView.m */; };
+		1CB70EB320F87D18009E708F /* LTCycleScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB70EAE20F87D02009E708F /* LTCycleScrollViewCell.m */; };
+		1CB70EB420F87D18009E708F /* LTCycleScrollViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB70EAA20F87D01009E708F /* LTCycleScrollViewFlowLayout.m */; };
+		1CB70EB520F87D23009E708F /* LTCycleScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB70EAD20F87D02009E708F /* LTCycleScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB70EB620F87D23009E708F /* LTCycleScrollViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB70EAB20F87D01009E708F /* LTCycleScrollViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CB70EB720F87D23009E708F /* LTCycleScrollViewFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB70EAC20F87D02009E708F /* LTCycleScrollViewFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +65,12 @@
 		1CB70E9D20F86C8B009E708F /* CycleScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CycleScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB70E9F20F86C8B009E708F /* CycleScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CycleScrollView.h; sourceTree = "<group>"; };
 		1CB70EA020F86C8B009E708F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CB70EA920F87D01009E708F /* LTCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTCycleScrollView.m; sourceTree = "<group>"; };
+		1CB70EAA20F87D01009E708F /* LTCycleScrollViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTCycleScrollViewFlowLayout.m; sourceTree = "<group>"; };
+		1CB70EAB20F87D01009E708F /* LTCycleScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTCycleScrollViewCell.h; sourceTree = "<group>"; };
+		1CB70EAC20F87D02009E708F /* LTCycleScrollViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTCycleScrollViewFlowLayout.h; sourceTree = "<group>"; };
+		1CB70EAD20F87D02009E708F /* LTCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTCycleScrollView.h; sourceTree = "<group>"; };
+		1CB70EAE20F87D02009E708F /* LTCycleScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTCycleScrollViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +117,12 @@
 				1CB70E7120F86BAC009E708F /* AppDelegate.m */,
 				1CB70E7320F86BAC009E708F /* ViewController.h */,
 				1CB70E7420F86BAC009E708F /* ViewController.m */,
+				1CB70EAD20F87D02009E708F /* LTCycleScrollView.h */,
+				1CB70EA920F87D01009E708F /* LTCycleScrollView.m */,
+				1CB70EAB20F87D01009E708F /* LTCycleScrollViewCell.h */,
+				1CB70EAE20F87D02009E708F /* LTCycleScrollViewCell.m */,
+				1CB70EAC20F87D02009E708F /* LTCycleScrollViewFlowLayout.h */,
+				1CB70EAA20F87D01009E708F /* LTCycleScrollViewFlowLayout.m */,
 				1CB70E7620F86BAC009E708F /* Main.storyboard */,
 				1CB70E7920F86BAE009E708F /* Assets.xcassets */,
 				1CB70E7B20F86BAE009E708F /* LaunchScreen.storyboard */,
@@ -128,6 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CB70EA120F86C8B009E708F /* CycleScrollView.h in Headers */,
+				1CB70EB520F87D23009E708F /* LTCycleScrollView.h in Headers */,
+				1CB70EB620F87D23009E708F /* LTCycleScrollViewCell.h in Headers */,
+				1CB70EB720F87D23009E708F /* LTCycleScrollViewFlowLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +256,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CB70EAF20F87D02009E708F /* LTCycleScrollView.m in Sources */,
+				1CB70EB020F87D02009E708F /* LTCycleScrollViewFlowLayout.m in Sources */,
+				1CB70EB120F87D02009E708F /* LTCycleScrollViewCell.m in Sources */,
 				1CB70E7520F86BAC009E708F /* ViewController.m in Sources */,
 				1CB70E8020F86BAE009E708F /* main.m in Sources */,
 				1CB70E7220F86BAC009E708F /* AppDelegate.m in Sources */,
@@ -242,6 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CB70EB220F87D18009E708F /* LTCycleScrollView.m in Sources */,
+				1CB70EB320F87D18009E708F /* LTCycleScrollViewCell.m in Sources */,
+				1CB70EB420F87D18009E708F /* LTCycleScrollViewFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +421,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LTCycleScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -407,6 +438,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LTCycleScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -429,6 +461,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CycleScrollView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +488,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CycleScrollView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
